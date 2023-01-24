@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    background-image: url(../img/imagemdefundo.jpg); 
+    font-family:'Tr ebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#total{
+    width: 980px;
+    height: auto;
+    margin: auto;
+}
+#topo{
+    width: 980px;
+    height: 37;
+    float: left;
+    background-image: url(../img/topo2.png);
+    border-bottom: 3px burlywood;
+    position: absolute;
+}
+#logo{
+    width: 144px;
+    height: auto;
+    float: right;
+
+
+}
+
+#menu{
+    width: auto;
+    height: auto;
+    float: right;
+
+}
+#menu a{
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    height: 27px;
+    padding: 10px 20px 0 20px;
+
+}
+#menu a:hover{
+    background-color: rgba(253, 253, 253, 0.274);
+
+}
+#menu a:active{
+    background-color: rgba(178, 165, 165, 0.961);
+}
+#destaque{
+    width: 980px;
+    min-height: 100px;
+    float: left;
+    background-color: rgba(255, 251, 251, 0.676); 
+    background-color: rgb(103, 64, 25);
+}
+#destaque h1{
+    color: rgb(255, 253, 253);
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: center;
+
+}
+#destaque h4{
+    color: rgb(237, 245, 251);
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+
+
+}
+.imgesquerda{
+    float:left;
+    margin-right: 10px;
+
+}
+#conteudo{
+    width: 750px;
+    height: auto;
+    float: left;
+
+}
+#coluna{
+    background-color: rgba(121, 69, 34, 0.481);
+    width: 180px;
+    height: 150px;
+    float: right;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 15px 10px;
+    
+}
+#coluna h3{
+    font-size: 22px;
+    margin-top: 0px;
+    text-align: center;
+
+}
+.saibamais{
+    display: inline-block;
+    width: 117px;
+    height: 25px;
+    background-color: rgba(121, 69, 34, 0.481);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 7px;
+}
+.saibamais:hover{
+	background-color:#BBA6E7;
+}
+.imgleft{
+	float:left;
+	margin-right:10px;
+}
+.artigo{
+	width:100%;
+        height: auto;
+	float:left;
+	padding-bottom:15px;
+	border-bottom:1px solid #CCC;
+}
+
+#container{
+	width:980px;
+	height:auto;
+	margin:auto;
+}	
+
+#topo{
+	width:980px;
+	height:37px;
+	background-image:url(img/topo.png);
+	border-bottom:3px solid #BBA6E7;	
+	/*float:left;*/
+	position:absolute;
+	z-index:10; /*depende da propriedade position*/
+}
+
+#logo{
+	width:144px;
+	height:182px;
+	float:left;
+	
+}
+
+#menu{
+	width:auto;
+	height:auto;
+	float:right;
+}
+
+#menu a{
+	color:#FFF;
+	text-decoration:none;
+	font-size:14px;
+	height:27px; 
+	display:inline-block;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;	
+
+}
+
+#menu a:hover{
+	background-color:#BBA6E7;
+}	
+
+
+#banner{
+	width:980px;
+	height:400px;	
+	float:left;
+	
+	overflow:hidden; 
+}
+
+#destaque{
+	width:980px;
+	min-height:100px; 
+	float:left;
+	background-color:#412B70;	
+	color:#FFF;
+	text-align:center;
+	margin-top:50px;
+	
+}
+
+#destaque h1{
+	font-size:30px;
+	font-style:italic;
+	margin-top:30px;
+	margin-left:45px;
+	margin-right:45px;
+	
+}
+
+#destaque h5{
+	font-size:14px;
+}
+
+
+#conteudo, #conteudoartigo{
+	width:750px;
+	min-height:100px;
+	float:left;
+	margin-top:50px;
+}
+
+#conteudoartigo{
+	width:100%;
+}
+
+#conteudogeral{
+	width:980px;
+	min-height:100px;
+	float:left;
+}
+
+#coluna{
+	width:180px;
+	min-height:100px;
+	float:right;
+	background-color:#EEE;
+	font-size:12px;
+	color:#412B70;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-top:50px;
+}
+#rodape{
+	width:980px;
+	height:25px;
+	float:left;
+	background-color:#EEE;
+	margin-top:50px;
+	font-size:12px;
+	color:#412B70;
+	text-align:center;
+	padding-top:12px;		
+}
+#conteudoartigo{
+	width: 450px;
+	height: 400px;
+	float: left;
+	background-color: #666;
+}
+#conteudoartigo2{
+	width: 450px;
+	height: 400px;
+	float: right;
+	background-color:#BBA6E7;
+}
